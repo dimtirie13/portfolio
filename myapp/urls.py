@@ -1,10 +1,11 @@
-from django.urls import path
+from django.urls import path, re_path
 from . import views
 
+
+# template url notation in base.html
 app_name = 'myapp'
 
-urlpatterns = [
-    path('',views.index,name='index'),
-    path('about',views.about,name='about')
-]
 
+urlpatterns = [
+    path('',views.HomePage.as_view(),name='homepage'),
+]

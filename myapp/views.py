@@ -1,9 +1,13 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.views.generic import (View,TemplateView,ListView,DetailView,
+                                CreateView,UpdateView,DeleteView)
+from . import models
+from django.urls import reverse_lazy
 
-def index(request):
-    return render(request,'myapp/index.html')
+
+class HomePage(TemplateView):
+    template_name = 'index.html'
 
 
-def about(request):
-    return  render(request,'myapp/about.html')
+
+
