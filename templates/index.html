@@ -25,9 +25,12 @@
                 <script src="{% static 'myapp/js/master.js' %}"></script>
                 <!-- Add icon library -->
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
               </head>
 
-
+        
 
               <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
               
@@ -66,13 +69,16 @@
               
               <!-- Container (About Section) -->
               <div id="about" class="container-fluid">
+                  <h2 style="color:#f4511e">About Me</h2>
                 <div class="row">
-                  <div class="col-sm-8">
-                    <h2>About Me</h2>
-                    <h4 class="slideanim"><img src="{% static 'myapp/images/mecrop.jpg' %}" alt="" style="border-radius:50px; height: 300px; width: 225px;">
-                      I descovered my passion for data science during my Head Coaching years. I decided to use basic statistics in order to give our team a compettive edge. 
-                      After several successful seasons I decided to make a career change back into my original passion of Computer Science with a focus on Data Science.</h4>      
-                    <p></p>
+                  <div class="col-sm-4">
+                    <span class="slideanim"><img src="{% static 'myapp/images/mecrop.jpg' %}" alt="" style="border-radius:50px; height: 450px; width: 310px;"></span>
+                  </div>
+                    <div class="col-sm-4">
+                     <p>I descovered my passion for data science during my Head Coaching years. I decided to use basic statistics in order to give our team a compettive edge. 
+                      After several successful seasons I decided to make a career change back into my original passion of Computer Science with a focus on Data Science.</p>
+                      <h4 class="text-center" style="color:#f4511e">Purpose behind the website?</h4>
+                      <p>I want to combine most of projects in one place as a way to showcase what I have learned so far.</p>
                   
                   </div>
                   <div class="col-sm-4">
@@ -89,6 +95,7 @@
                                                   <th scope="col">PYTHON</th>
                                                   <th scope="col">JS</th>
                                                   <th scope="col">CSS</th>
+
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -115,7 +122,7 @@
               <!-- Container (Portfolio Section) -->
               <div id="portfolio" class="container-fluid text-center bg-grey">
                     <div class="text-center">
-                            <h2>PORTFOLIO</h2>
+                            <h2 style="color:#f4511e">PORTFOLIO</h2>
                             <h4>Take a look at some of my projects</h4>
                           </div>
                           <div class="row">
@@ -169,7 +176,7 @@
             
                 
                
-                <div id="resume" class=" container-fluid carousel slide text-center" data-ride="carousel" style="background-color:black">
+                <div id="resume" class=" container-fluid carousel slide text-center" data-ride="carousel">
                   <h2>My Resume</h2>
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
@@ -182,7 +189,7 @@
                   <div class="carousel-inner slideanim" role="listbox">
                     <div class="item active">
                       <h4 style="color:#f4511e;">Teaching Assistant(Data Analytics)Trilogy Education Services<br><span>University of Miami</span></h4>
-                      <div style="color:white; font-size: 20px">
+                      <div style="color:black; font-size: 20px">
                           <p>Fundamental Statistics: Modeling, Forecasting <p>
                           <p>Front-End Development: HTML, CSS, Bootstrap, JavaScript, D3.js, Leaflet.js</p>
                           <p>Business Intelligence Software: Tableau</p>
@@ -193,7 +200,7 @@
                     </div>
                     <div class="item slideanim">
                       <h4 style="color:#f4511e;">Information security intern<br><span>State Street Bank & Trust</span></h4>
-                      <div style="color:white; font-size: 20px">
+                      <div style="color:black; font-size: 20px">
                         <p>Created Pivot Tables in conjunction with other Excel functions to analyze compliance metrics worldwide</p>
                         <p>Overlooked Risk Management profiles for Internal applications including database management</p>
                         <p>Presented findings and data to senior management in order to improve strategies and operations</p>
@@ -204,7 +211,7 @@
                     </div>
                     <div class="item slideanim">
                       <h4 style="color:#f4511e;">Account Manager<br><span>Spectec Gmbh</span></h4>
-                      <div style="color:white; font-size: 20px">
+                      <div style="color:black; font-size: 20px">
                       <p>Establish the Marketing & Sales Strategy for new products</p>
                       <p>Develop new client relationships in the industry</p>
                       <p>Offer Technical support to all US based clients</p>
