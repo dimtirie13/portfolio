@@ -23,12 +23,13 @@ font-family: Montserrat, sans-serif;
   width: 10px;
   text-align: center;
   text-decoration: none;
+  color: #f4511e;
 }
 
 /* Add a hover effect */
 .fa:hover {
   opacity: 0.7;
-  color:#f4511e; 
+  color:gray;  
 }
 .container-fluid {
 padding: 50px 50px;
@@ -99,7 +100,7 @@ transition: box-shadow 0.5s;
 background-color: white;
 }
 .panel:hover {
-box-shadow: 30px 30px 30px rgba(75, 70, 69, 0.582);
+box-shadow: 20px 20px 20px rgba(75, 70, 69, 0.582);
 }
 .panel-footer .btn:hover { 
 border: 1px solid black;
